@@ -1,4 +1,4 @@
-FROM python:3.10.6-buster
+FROM python:3.10.6
 COPY carb_calc /carb_calc
 COPY requirements.txt /requirements.txt
 RUN pip install --upgrade pip
